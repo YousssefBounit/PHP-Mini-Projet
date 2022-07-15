@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    background: url(images/BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+textarea{
+    resize: none;
+    border-radius: 7px;
+}
+/*this is for nav link underline*/
+.botn::after{
+    content: '';
+    background-color: rgb(190, 19, 19);
+    width: 0%;
+    height: 2px;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.botn:hover::after{
+    content: '';
+    background-color: rgb(190, 19, 19);
+    width: 100%;
+    height: 2px;
+    display: block;
+}
+.up{
+    position: fixed;
+    bottom: 25px;
+    right: -50px;
+    background-color: rgb(190, 19, 19);
+    height: 45px;
+    width: 45px;
+    color: white;
+    border-radius: 15px;
+    transform: rotate(-90deg);
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) -12px -12px 28px, rgba(0, 0, 0, 0.22) -10px 0px 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.up.show{
+    right: 30px;
+}

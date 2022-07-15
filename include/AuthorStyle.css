@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    background: url(images/BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Oda{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(images/oda.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(58, 58, 58);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Mayumi{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/Mayumi_Tanaka.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Kazuya{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/Kazuya_Nakai.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Hiroaki{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/Hiroaki_Hirata.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Saori{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/Saori_Hayami.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Katsuhisa{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/katsuhisa_hōki.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.kanae{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/kanae_itō.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Kazuki{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/Kazuki_Yao.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Yuriko{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/yuriko_yamaguchi.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Chō{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/Chō.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Kappei{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/kappei_yamaguchi.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Ikue{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/Ikue_Ōtani.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+.Akemi{
+    position: relative;
+    height: 249px;
+    width: 252px;
+    background-image: url(actors_images/Akemi_Okamura.png);
+    float: left;
+    margin-left: 2%;
+    shape-outside: circle();
+    border: 4px solid rgb(190, 19, 19);
+    border-radius: 50%;
+    margin: 1%;
+}
+textarea{
+    resize: none;
+    border-radius: 7px;
+}
+/*this is for nav link underline*/
+.botn::after{
+    content: '';
+    background-color: rgb(190, 19, 19);
+    width: 0%;
+    height: 2px;
+    display: block;
+    transition: .5s ease-in-out;
+}
+.botn:hover::after{
+    content: '';
+    background-color: rgb(190, 19, 19);
+    width: 100%;
+    height: 2px;
+    display: block;
+}
+.up{
+    position: fixed;
+    bottom: 25px;
+    right: -50px;
+    background-color: rgb(190, 19, 19);
+    height: 45px;
+    width: 45px;
+    color: white;
+    border-radius: 15px;
+    transform: rotate(-90deg);
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) -12px -12px 28px, rgba(0, 0, 0, 0.22) -10px 0px 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.up.show{
+    right: 30px;
+}
